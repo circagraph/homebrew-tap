@@ -1,12 +1,12 @@
 # Copyright (c) 2026 Athan Clark. SPDX-License-Identifier: GPL-3.0-only
-# The OpenChronology server for macOS (#116), published to openchronology/homebrew-tap by
+# The OpenChronology server for macOS (#116), published to circagraph/homebrew-tap by
 # releases (scripts/homebrew-formula.mjs renders this template).
 class OpenchronologyServer < Formula
   desc "Exact timelines, shared on your terms: the OpenChronology platform server"
-  homepage "https://github.com/openchronology/timeline-app"
-  url "https://github.com/openchronology/timeline-app/releases/download/v0.29.0/openchronology-server-platform.tar.gz"
-  version "0.29.0"
-  sha256 "27603f4dd03330f644959486c9fd705612791255e4ad0c2b5348b7e5478f81b4"
+  homepage "https://github.com/circagraph/timeline-app"
+  url "https://github.com/circagraph/timeline-app/releases/download/v0.30.1/openchronology-server-platform.tar.gz"
+  version "0.30.1"
+  sha256 "cfe2ef5ddd414b97aa0d8694f2e731575404e15f8fc29acbb72de7d6b84c56a7"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
